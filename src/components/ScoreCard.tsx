@@ -51,7 +51,7 @@ export default function ScoreCard({ title, score }: ScoreCardProps) {
   return (
     <Wrapper title={title}>
       <CaptionWrapper title={title}>
-        <img src={`${ICONS[title]}`} />
+        <img src={`${ICONS[title]}`} alt='' />
         <Caption>{title}</Caption>
       </CaptionWrapper>
       <ScoreSegment>
