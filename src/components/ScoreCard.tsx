@@ -36,7 +36,7 @@ const CaptionWrapper = styled.div<{ title: Title }>`
   gap: 12px;
 `;
 
-const Caption = styled.p``;
+const Caption = styled.h2``;
 
 const ScoreSegment = styled.div`
   color: hsl(${COLORS.neutral['gray-blue']} / 0.5);
