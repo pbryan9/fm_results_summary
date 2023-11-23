@@ -79,7 +79,7 @@ const ScoreDescription = styled.p`
   text-align: center;
 `;
 
-const ResultIntro = styled.h2`
+const ResultIntro = styled.h1`
   color: hsl(${COLORS.neutral['light-lavender']});
   font-size: 1.25rem;
 
